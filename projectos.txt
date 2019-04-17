@@ -79,8 +79,9 @@ int main()
 	{
 		tarrival[i]=ct[i]-arrivaltime[i];
 		waitingtime[i]=tarrival[i]-burst1[i];
-		printf("\n\n completiontime \t turnaroundtime  \t Waiting Time  \n ");
-		 	printf("\n %d                \t %d                  \t%d  \n", i+1,ct[i],tarrival[i],waitingtime[i]);
+			printf("\nCompletion time for process%d:%d \n",i+1,ct[i]);
+		printf("Turn arround time for process:%d:%d \n",i+1,tarrival[i]);
+		printf("Waiting time for process:%d : %d \n",i+1,waiting[i]);
 
 		
 		atat=atat+tarrival[i];
