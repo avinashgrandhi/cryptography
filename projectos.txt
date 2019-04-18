@@ -95,3 +95,9 @@ int main()
 	printf("\nAverage turn arrounf time: %d",atat);
 	printf("\nAverage waiting time:%d",awt);
 	}
+	
+	
+	
+	
+	
+	
